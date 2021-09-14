@@ -1,21 +1,18 @@
-/* 
-основний шрифт - 'Raleway', sans-serif;
-шрифт лого - 'Roboto', sans-serif;
-
-основний колір фону -  #2F303A
-основний колір тексту - #212121
-акцент - #2196F3
-
-*/
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+}
 
 * {
     list-style: none;
 }
+
 body {
     list-style: none;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
     
 
 }
@@ -28,9 +25,10 @@ body {
     font-size: 26px;
     line-height: 1.19;
 
-    color: #2196F3;
+    color: var(--accent-color);
 }
-.logo .studio-header {
+/* .logo  */
+.studio-header {
     color: #000000;
 }
 
@@ -38,17 +36,58 @@ body {
 .header {
     background-color: #FFFFFF;
 }
-.header .link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
 
-color: #212121;
-text-decoration: none;
+.header .link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .header .link:hover,
 .header .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+/* Подвал */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.studio-footer {
+    color: #FFFFFF;
+}
+
+.address-footer {
+    font-style: normal;
+}
+.address {
+    color: #FFFFFF;
+}
+.footer .link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+        
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    }
+    
+.footer .link:hover,
+.footer .link:focus {
+    color: #FFFFFF;
 }
