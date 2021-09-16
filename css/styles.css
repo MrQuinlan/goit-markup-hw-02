@@ -12,8 +12,6 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    
-
 }
 
 /* ========= Шапка ==================================== */
@@ -46,6 +44,10 @@ body {
 
     color: var(--primary-text-color);
     text-decoration: none;
+}
+
+.link.current-page {
+    color: var(--accent-color);
 }
 
 .header .link:hover,
