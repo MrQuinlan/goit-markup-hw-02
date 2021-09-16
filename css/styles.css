@@ -69,7 +69,7 @@ body {
     color: #FFFFFF;
  }
 
- .btn {
+ .main-btn {
     
     font-weight: 700;
     font-size: 16px;
@@ -77,14 +77,13 @@ body {
         
     letter-spacing: 0.06em;
 
-    color: var(--primary-text-color);
-    background-color: #F5F4FA;
- }    
-    
-.btn:hover,
-.btn:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
+ }    
+    
+.main-btn:hover,
+.main-btn:focus {
+    background-color: #188CE8;
  }
 
 /* ========= Особенности ============================== */
@@ -179,6 +178,24 @@ body {
     line-height: 1.63;
     letter-spacing: 0.03em;
 }
+
+.btn {
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+        
+    letter-spacing: 0.06em;
+
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+ }    
+    
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+ }
 
 .portfolio-title {
     font-weight: 700;
